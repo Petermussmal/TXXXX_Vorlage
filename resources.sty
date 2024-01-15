@@ -1,0 +1,39 @@
+\ProvidesPackage{resources}
+
+\usepackage{minted}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{hyphenat}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{float}
+\usepackage{abstract}
+\usepackage{textgreek}
+\usepackage{mdframed}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{acronym}
+\usepackage{pdfpages}
+\usepackage{subcaption}
+\usepackage[style=ieee,backend=biber]{biblatex}
+\usepackage{import}
+
+\defineshorthand{~=}{\hyp{}}
+\newcommand{\CS}{C\nolinebreak\hspace{-.05em}\raisebox{.5ex}{\scriptsize\bf \#}\,}
+
+\hypersetup{
+    colorlinks = true,
+    linkcolor = black,
+    urlcolor = blue,
+    citecolor = black,
+}
+
+\DeclareFieldInputHandler{extradate}{\def\NewValue{}}
+
+%\addbibresource{T1000Quellen.bib}
