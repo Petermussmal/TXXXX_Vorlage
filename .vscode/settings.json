@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.bcf": true,
+        "**/*.blg": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.out": true,
+        "**/*.lof": true,
+        "**/*.lol": true,
+        "**/*.run.xml": true,
+        "**/*.synctex.gz": true,
+        "**/*.toc": true,
+        "**/_minted-T1000": true,        
+        "**/**/_minted-projektarbeit1": true,
+        "**/**/_minted-projektarbeit2": true,
+        "**/_minted-projektarbeit": true
+    }
+}
